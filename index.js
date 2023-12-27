@@ -6,7 +6,7 @@ const restServer=jsonServer.create()
 
 
 //setup path for db.json
-const router=jsonServer.router()
+const router=jsonServer.router('db.json')
 
 
 //return a middleware used by json server

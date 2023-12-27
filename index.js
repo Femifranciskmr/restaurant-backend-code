@@ -18,7 +18,7 @@ const port=3001
 
 
 //use in server
-restServer.us(middleware)
+restServer.use(middleware)
 restServer.use(router)
 
 
